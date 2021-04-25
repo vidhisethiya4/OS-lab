@@ -25,13 +25,13 @@ while(x!=tot)
     { for(i=0;i<n;i++)
       {
         if(et[i]>ts) 
-        { x=x+ts; cout<<pn[i]<<"->"<<ts<<" "; //endl; 
+        { x=x+ts; cout<<pn[i]<<"->"<<ts<<" ";  
           et[i]=et[i]-ts; 
           } 
       else if((et[i]<=ts)&&et[i]!=0) 
        { 
          x=x+et[i]; 
-        cout<<pn[i]<<"->"<<et[i]<<" "; //endl; 
+        cout<<pn[i]<<"->"<<et[i]<<" "; 
          et[i]=0;} } }
         cout<<endl<<"Total Estimated Time:"<<x; 
 	    
